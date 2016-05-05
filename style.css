@@ -10,6 +10,7 @@ p {
 }
 h2 {
   text-transform: uppercase;
+  clear: left;
 }
 a {
   text-decoration: none;
@@ -18,10 +19,15 @@ a {
 li {
   font-size: 20px;
   border-top: 3px solid seagreen;
+  width: 30%;
+  float: left;
+  margin-right: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 ul {
-  border: 3px dotted plum;
-  border-radius: 5px;
+  /*border: 3px dotted plum;
+  border-radius: 5px;*/
 }
 
 .mammal {
@@ -68,4 +74,12 @@ ul {
 }
 #tuna {
   background-color: purple;
+}
+a {
+  display: block;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid purple;
+  border-radius: 5px;
 }
