@@ -17,4 +17,55 @@ a {
 }
 li {
   font-size: 20px;
+  border-top: 3px solid seagreen;
+}
+ul {
+  border: 3px dotted plum;
+  border-radius: 5px;
+}
+
+.mammal {
+  color:red;
+  font-weight: bold;
+}
+#sloth {
+  background-color: gray;
+}
+#tiger {
+  background-color: sienna;
+}
+#wolf {
+  background-color: tan;
+}
+#sheep {
+  background-color: steelBlue;
+}
+
+
+.bird {
+  color: blue;
+  font-style: italic;
+
+}
+#canary {
+  background-color: orangeRed;
+}
+#penguin {
+  background-color: black;
+}
+#parakeet {
+  background-color: lime;
+}
+.fish {
+  color: orange;
+  text-decoration: underline;
+}
+#salmon {
+  background-color: salmon;
+}
+#piranha {
+  background-color: gold;
+}
+#tuna {
+  background-color: purple;
 }
